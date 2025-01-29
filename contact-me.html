@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conatct</title>
+</head>
+<body>
+    <h1>Conatct Me</h1>
+
+    <form action="">
+    <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" name="name" id="name" maxlength="5" required>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="100" required>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="gender">Gender :</label>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male" id="male">
+    </div>
+    <br>
+    <div class="form-group">
+        <select name="nationality" id="nationality">
+         <optgroup label="Europe">
+        <option value="german">German</option>
+        <option value="french">French</option>
+        <option value="italian">Italian</option>
+         </optgroup>
+        </select>
+    </div>
+     <br>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+    </div>
+
+    <br>
+    <input type="submit" value="submit">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
